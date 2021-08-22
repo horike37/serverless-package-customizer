@@ -15,10 +15,12 @@ class PackageCustomizer {
       package: {
         options: {
           's3-bucket': {
-            usage: 'Specify a deploymentBucket Name'
+            usage: 'Specify a deploymentBucket Name',
+            type: 'string'
           },
           's3-path': {
-            usage: 'Specify a path name of deploymentBucket'
+            usage: 'Specify a path name of deploymentBucket',
+            type: 'string'
           }
         }
       }
